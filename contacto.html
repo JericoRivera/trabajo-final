@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1 style="font-size: 2em; color: tomato;">Mundo Tec</h1> <!--Titulo 1-->
+        <h2>Calidad garantizada</h2> <!--Titulo 2-->
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <p><a href="index.html">Volver atras</a></p> <!--Anchor (a)-->
+    </nav>
+
+    <!--Cuerpo principal-->
+    <main>
+
+        <!--Formulario de contacto-->
+        <section id="formContacto">
+
+            <h3>Escríbenos ahora</h3>
+
+            <!--Formulario-->
+            <form action="contactoRegistro.html" method="get">
+
+                <div>
+                    <label for="txtName">Ingrese su nombre</label>
+                    <input type="text" name="txtName" id="txtName" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="txtApellido">Ingrese su apellido</label>
+                    <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength="54" required>
+                </div>
+                <div>
+                    <label for="txtEmail">Ingrese su correo</label>
+                    <input type="email" name="txtEmail" id="txtEmail" autocomplete="off" maxlength="128" required>
+                </div>
+                <div>
+                    <label for="numPhone">Ingrese su teléfono o celular</label>
+                    <input type="tel" name="numPhone" id="numPhone" maxlength="13" minlength="7">
+                </div>
+
+                <!--Selest / Selección de valor-->
+                <div>
+                    <label for="txtAsunto">Escoja el asunto del mensaje></label>
+                    <select name="txtAsunto" id="txtAsunto" required>
+                        <option value="">Seleccione una opción...</option>
+                        <option value="comprarMayor">Comprar productos por mayor</option>
+                        <option value="consultaDevolucion">Consulta para devolucón de producto</option>
+                        <option value="consultaGeneral">Hacer conculta general</option>
+                    </select>
+                </div>
+
+                <!--TextArea / Cuerpo de texto-->
+
+                <div>
+                    <label for="bodyDetalle">Ingrese su mensaje</label>
+                    <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+                </div>
+
+                <!--Input checkbox-->
+                <div>
+                    <input type="checkbox" name="bolAutorizo" id="bolAutorizo" required>
+                    <label for="bolAutorizo">Autorizo el envío de publicidad e información comercial</label>
+                </div>
+
+                <!-- Input Sutmit / Botón de enviar-->
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+
+        </section>
+
+        <!--Datos de contacto-->
+        <section id="ubicanos">
+            <p>Calle 4 Los Parques del Agustino<br>
+                El Agustino - Lima - Perú
+
+            </p>
+            <p>Télefono: 01 680 5555 / 999 555 444</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d5960.106380401766!2d-77.00451217767655!3d-12.041063384402493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses-419!2spe!4v1680038676086!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Cargar la libreria Boostrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Catalogo Mundo Tec</title>
+
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="text-white bg-dark text-center p-4">
+        <h1>Mundo TEC</h1> <!-- Titulo 1 -->
+        <h2>Calidad Asegurada</h2> <!-- Titulo 2 -->
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">¿Quienes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contáctenos</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#ventanaCarrito">Carrito</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Ventana del Carrito-->
+    <div id="ventanaCarrito" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Carrito</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Su carrito está actualmente vacio.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary">Limpiar</button>
+                    <button type="button" class="btn btn-primary">Finalizar compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Notificación-->
+    <div id="notificación">Ventas de producto catalogo Marzo 2023</div>
+
+    <!-- Parte principal -->
+    <main class="container">
+
+        <!-- Sección de catalogo -->
+        <section id="catalogo" class="row">
+
+            <!-- Articulo 01 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/123.webp" alt="smartphones">
+                </picture>
+
+                <h3>Samsung Galaxy S23 Ultra</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 5 700.00</span> <span class="precioDescuento">-22%</span>
+                    <br><span class="precioFinal">S/ 4 444.00</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 02 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/s23 plus-1-1-1.png" alt="smartphones">
+                </picture>
+
+                <h3>Samsung Galaxy S23+</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 4 200.00</span> <span class="precioDescuento">-2%</span>
+                    <br><span class="precioFinal">S/ 4 111.11</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 03 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/47050479_1.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Motorola Moto Edge 30 Neo</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 1 400.00</span> <span class="precioDescuento">-7%</span>
+                    <br><span class="precioFinal">S/ 1 299.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 04 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/POCO-X5-5G.webp" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi Poco X5 5G</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 1 470.00</span> <span class="precioDescuento">-32%</span>
+                    <br><span class="precioFinal">S/ 999.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 05 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/14-pro-max.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Iphone 14 Pro Max</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 6 055.56</span> <span class="precioDescuento">-12%</span>
+                    <br><span class="precioFinal">S/ 5 333.33</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 06 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/71vNgTH3MzL._AC_SS450_.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi 12 Pro 5G</h3>
+                <p>
+                    <br><span class="precioFinal">S/ 3 499.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 07 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/gsc_115293684_1071536_1.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi 12T Pro</h3>
+                <p>
+                    <br><span class="precioFinal">S/ 2 699.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 08 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/Xiaomi-Redmi-K50-Gaming-2.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi Redmi K50 GE</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 2 150.00</span> <span class="precioDescuento">-12%</span>
+                    <br><span class="precioFinal">S/ 1 899.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 09 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/xiaomi-12-xiaomitiendaperu.com_01.png" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi 12</h3>
+                <p>
+                    <br><span class="precioFinal">S/ 2 999.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 10 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/poco-f4-gt-4_HI6NFNH.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Xiaomi Poco F4 GT</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 2 699.90</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 2 299.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 11 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/image-45cff5fc0c67479284d9a08c57068341.webp"
+                        alt="smartphones">
+                </picture>
+
+                <h3>Samsung Galaxy A33 5G</h3>
+                <p>
+                    <br><span class="precioFinal">S/ 1 099.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+            </article>
+
+            <!-- Articulo 12 -->
+            <article class="col-3">
+
+                <picture>
+                    <img class="img-fluid" src="resourses/113895377_1.jpg" alt="smartphones">
+                </picture>
+
+                <h3>Samsung Galaxy S22 Ultra</h3>
+                <p>
+                    <span class="PrecioOriginal">S/ 4 699.90</span> <span class="precioDescuento">-15%</span>
+                    <br><span class="precioFinal">S/ 3 999.90</span>
+                </p>
+                <button class="btn btn-secondary">Agregar al carrito</button>
+
+            </article>
+
+        </section>
+    </main>
+
+
+    <!--Pie de página-->
+    <footer>
+        <p> &copy; 2023 Jerico Rivera Collantes / Diseño y desarrollo web </p>
+    </footer>
+
+    <!-- Aquí se ejecutan las instrucciones  JavaScript -->
+
+    <!-- Cargando funciones de Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- JavaScript personalizado -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
